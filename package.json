@@ -1,0 +1,37 @@
+{
+  "name": "suspicious-package-scanner",
+  "version": "0.0.1",
+  "description": "A NodeJS tool to scan install node modules and detect suspicious code",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-mocha": "^6.0.0",
+    "gulp-prettier": "^2.0.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "prettier": "^1.15.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronosis/suspicious-package-scanner.git"
+  },
+  "author": "Jay Reardon <jayreardon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chronosis/suspicious-package-scanner/issues"
+  },
+  "homepage": "https://github.com/chronosis/suspicious-package-scanner#readme"
+}
